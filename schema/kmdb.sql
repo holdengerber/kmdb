@@ -27,5 +27,7 @@ CREATE TABLE roles (
   actor_id       INTEGER NOT NULL REFERENCES actors (id),
   character_name TEXT    NOT NULL,
   billing_order  INTEGER NOT NULL,
+  spoiler        INTEGER NOT NULL DEFAULT 0 CHECK (spoiler IN (0, 1)),
   UNIQUE (movie_id, billing_order)
 );
+

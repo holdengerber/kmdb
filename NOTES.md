@@ -1,10 +1,4 @@
 # Notes
 
-## What the chat would change about my drawing
-
-## What I took, what I didn't, and why
-
 ## The chat
-
-Paste the share link here. Put screenshots of the whole chat in `chat/` too, in case the link
-ever stops working.
+https://claude.ai/share/083eef3e-6ffe-4b90-8242-957c72230545
